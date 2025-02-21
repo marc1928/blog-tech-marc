@@ -12,7 +12,7 @@ spring:
    # jdbc:mysql://localhost:3306/blog-marc
     driver-class-name: org.h2.Driver
     username: marc
-    password:
+    password: marc
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
@@ -22,6 +22,7 @@ spring:
     console:
       enabled: true
       path: /h2-console
+
 #    username: root
 #    password: marc
 #    driver-class-name: com.mysql.cj.jdbc.Driver
